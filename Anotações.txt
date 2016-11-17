@@ -1,0 +1,85 @@
+www.belezanaweb.com.br
+Zull - Api gateway da google.
+Micro Services - Serviços dedicados de acordo com as regras de negócio. Geralmente em par com BD.
+Cada microservice pode ser de uma tecnologia diferente com tanto que a resposta seja em Json..
+
+Ryan Dahl - criador do nodejs - achava o Ruby lento..
+
+emmet - ajudande para html
+
+
+Mongo
+ReplicaSet - Master/Slave
+
+Master - 100k
+Slave1 - 100k (replicados)
+Slave2 - 100k (replicados)
+
+Sharding
+
+Base1 - 33,3k (1/3 dos dados totais)
+Base2 - 33,3k (1/3 dos dados totais)
+Base3 - 33,3k (1/3 dos dados totais)
+
+GTmetrix - ferramenta para otimização de páginas web
+
+MongoLab e Heroku - Pra fazer Poc gratúita
+
+Mocha - framework para testes
+ - Para global o comando é mocha test/*
+ - para Dev é node_modules/mocha/bin/mocha test/*
+ - Nyan cat reporter - mocha -R nyan test/*
+ - Progress reporter - mocha -R progress test/*
+
+Istabul - Relatórios de teste e cobertura
+ - No windows, instalar o mocha na dev do projeto e rodar assim
+   " istanbul cover node_modules/mocha/bin/_mocha test/*"
+
+Supertest - faz chamadas http
+
+NPM Semantic version - 
+ ^ - Patch
+ ~ - Minor
+ * - Major
+
+ BDD - Teste para usuário ver.
+
+ Nunjucks - Template engine
+
+
+ [onload iframe]
+
+ jenkins - gerenciador de deploy
+ ngnix - servidor do site
+
+ heroku
+ procfile, escutar a porta via variavel de ambiente.
+
+ Paas - plataform as a service
+ Iaas - infraestructure as a service
+ cdn - content distri network
+ "cloudnery"
+
+Promise - blue bird... mais rápida que a nativa
+Como promisify: Tira o tratamento de erro de dentro, troca o nome da função para [nome]Async e no lugar do callback utilizar .then e .catch (next) dentro do Controller.
+
+nock - intercepta requisições de rede.
+
+mongoose - ODM para mongodb e nodejs
+validação de dados para entrar no banco
+
+
+JSHINT - Ajuda com o javascript
+
+jshint controller/* repository/* routes/* schema/* app.js
+
+windows, sem /*
+Jshint e seu cérebro
+
+javascript de alto desempenho
+padrões javascript
+
+Padrões de Projeto - Gof
+Refactoring - Fowler
+
+Redis - Banco chave/valor
