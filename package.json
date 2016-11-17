@@ -1,0 +1,29 @@
+{
+  "name": "curso_nodejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "set NODE_ENV=dev&& set DEBUG=curso:* && nodemon bin/www",
+    "prod": "forever bin/www",
+    "pretest": "jshint controller repository routes schema app.js",
+    "test": "set NODE_ENV=test&& set DEBUG=curso:* && istanbul cover node_modules/mocha/bin/_mocha test/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.6.6",
+    "nunjucks": "^3.0.0",
+    "redis": "^2.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "supertest": "^2.0.1"
+  }
+}

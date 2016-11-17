@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+</head>
+<body>
+
+<h1>{{ title }}</h1>
+<ul>
+{% for item in items %}
+	<li>{{ item }} {{ 'red' if item > 7 }}</li>
+{% endfor %}
+</ul>
+	{% if true%}
+	<p>o if deu true</p>
+	{%endif%}
+</body>
+</html>
