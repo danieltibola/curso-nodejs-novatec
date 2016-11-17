@@ -1,4 +1,6 @@
-www.belezanaweb.com.br
+Notas gerais do curso NoteJS
+
+
 Zull - Api gateway da google.
 Micro Services - Serviços dedicados de acordo com as regras de negócio. Geralmente em par com BD.
 Cada microservice pode ser de uma tecnologia diferente com tanto que a resposta seja em Json..
