@@ -1,5 +1,5 @@
-#Curso NodeJS Novatec - 5 e 6 de Novembro de 2016
+#Curso NodeJS Novatec - 5 e 6 de Novembro de 2016 (16h)
 
 ![NodeJS](nodejs_logo.png)
 
-Este é o material produzido no curso de NodeJS.
+Este material foi produzido como parte do treinamento do curso de NodeJS.
